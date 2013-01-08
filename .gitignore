@@ -44,3 +44,5 @@ build
 *tmproj
 **/~*
 .DS_Store
+
+*.xcuserstate
