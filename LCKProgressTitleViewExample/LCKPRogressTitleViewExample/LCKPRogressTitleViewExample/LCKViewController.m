@@ -7,6 +7,7 @@
 //
 
 #import "LCKViewController.h"
+#import "LCKProgressTitleView.h"
 
 @interface LCKViewController ()
 
