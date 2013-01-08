@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5EE2194169BD76E00E480BC"
-               BuildableName = "LCKProgressTitleView.app"
-               BlueprintName = "LCKProgressTitleView"
-               ReferencedContainer = "container:LCKProgressTitleView.xcodeproj">
+               BlueprintIdentifier = "B5EE21FB169BDEA900E480BC"
+               BuildableName = "LCKPRogressTitleViewExample.app"
+               BlueprintName = "LCKPRogressTitleViewExample"
+               ReferencedContainer = "container:LCKPRogressTitleViewExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B5EE2194169BD76E00E480BC"
-            BuildableName = "LCKProgressTitleView.app"
-            BlueprintName = "LCKProgressTitleView"
-            ReferencedContainer = "container:LCKProgressTitleView.xcodeproj">
+            BlueprintIdentifier = "B5EE21FB169BDEA900E480BC"
+            BuildableName = "LCKPRogressTitleViewExample.app"
+            BlueprintName = "LCKPRogressTitleViewExample"
+            ReferencedContainer = "container:LCKPRogressTitleViewExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B5EE2194169BD76E00E480BC"
-            BuildableName = "LCKProgressTitleView.app"
-            BlueprintName = "LCKProgressTitleView"
-            ReferencedContainer = "container:LCKProgressTitleView.xcodeproj">
+            BlueprintIdentifier = "B5EE21FB169BDEA900E480BC"
+            BuildableName = "LCKPRogressTitleViewExample.app"
+            BlueprintName = "LCKPRogressTitleViewExample"
+            ReferencedContainer = "container:LCKPRogressTitleViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B5EE2194169BD76E00E480BC"
-            BuildableName = "LCKProgressTitleView.app"
-            BlueprintName = "LCKProgressTitleView"
-            ReferencedContainer = "container:LCKProgressTitleView.xcodeproj">
+            BlueprintIdentifier = "B5EE21FB169BDEA900E480BC"
+            BuildableName = "LCKPRogressTitleViewExample.app"
+            BlueprintName = "LCKPRogressTitleViewExample"
+            ReferencedContainer = "container:LCKPRogressTitleViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

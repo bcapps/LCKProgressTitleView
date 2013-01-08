@@ -1,6 +1,6 @@
 //
 //  LCKViewController.m
-//  LCKProgressTitleView
+//  LCKPRogressTitleViewExample
 //
 //  Created by Brian Capps on 1/7/13.
 //  Copyright (c) 2013 Lickability. All rights reserved.
@@ -14,13 +14,14 @@
 
 @implementation LCKViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-	
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addButtonTapped)];
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
