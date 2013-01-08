@@ -19,9 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor colorWithRed:0.859 green:0.886 blue:0.925 alpha:1.0];
+    
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(incrementProgress)];
     
-    self.progressTitleView = [[LCKProgressTitleView alloc] initWithFrame:CGRectMake(0, 0, 100, CGRectGetHeight(self.navigationController.navigationBar.frame))];
+    self.progressTitleView = [[LCKProgressTitleView alloc] initWithFrame:CGRectMake(0, 0, 100.0, CGRectGetHeight(self.navigationController.navigationBar.frame))];
     self.progressTitleView.progress = 0.0;
     self.progressTitleView.text = NSLocalizedString(@"Tap +", nil);
     self.navigationItem.titleView = self.progressTitleView;
