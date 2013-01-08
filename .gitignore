@@ -1,0 +1,46 @@
+# xcode noise
+build/*
+*.pyc 
+*~.nib/ 
+*.pbxuser 
+*.perspective 
+*.perspectivev3 
+*.xcworkspace/ 
+xcuserdata/
+*.xcclassmodel/*
+*/xcuserdata/*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
+# Clang
+Static analysis/*
+
+build
+*xcodeproj/*mode*
+*xcodeproj/*pbxuser
+*xcodeproj/*per*
+*xcodeproj/project.xcworkspace
+*xcodeproj/xcuserdata
+**/build
+**/*xcodeproj/*mode*
+**/*xcodeproj/*pbxuser
+**/*xcodeproj/*per*
+**/*xcodeproj/project.xcworkspace
+**/*xcodeproj/xcuserdata
+**/**/*xcodeproj/*mode*
+**/**/*xcodeproj/*pbxuser
+**/**/*xcodeproj/*per*
+**/**/*xcodeproj/project.xcworkspace
+**/**/*xcodeproj/xcuserdata
+*tmproj
+**/~*
+.DS_Store
