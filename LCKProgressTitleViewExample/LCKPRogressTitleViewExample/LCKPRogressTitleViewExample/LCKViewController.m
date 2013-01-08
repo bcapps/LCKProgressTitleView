@@ -25,7 +25,6 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(incrementProgress)];
     
     self.progressTitleView = [[LCKProgressTitleView alloc] initWithFrame:CGRectMake(0, 0, 100.0, CGRectGetHeight(self.navigationController.navigationBar.frame))];
-    self.progressTitleView.progress = 0.0;
     self.progressTitleView.text = NSLocalizedString(@"Tap +", nil);
     self.navigationItem.titleView = self.progressTitleView;
 }
