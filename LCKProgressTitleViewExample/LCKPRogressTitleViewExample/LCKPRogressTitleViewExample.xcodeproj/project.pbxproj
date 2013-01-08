@@ -18,6 +18,7 @@
 		B5EE2217169BDEA900E480BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EE2216169BDEA900E480BC /* Default-568h@2x.png */; };
 		B5EE221A169BDEA900E480BC /* LCKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE2219169BDEA900E480BC /* LCKViewController.m */; };
 		B5EE221D169BDEA900E480BC /* LCKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EE221B169BDEA900E480BC /* LCKViewController.xib */; };
+		B5EE2226169BDFAA00E480BC /* LCKProgressTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE2225169BDFAA00E480BC /* LCKProgressTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		B5EE2218169BDEA900E480BC /* LCKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCKViewController.h; sourceTree = "<group>"; };
 		B5EE2219169BDEA900E480BC /* LCKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCKViewController.m; sourceTree = "<group>"; };
 		B5EE221C169BDEA900E480BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCKViewController.xib; sourceTree = "<group>"; };
+		B5EE2224169BDFAA00E480BC /* LCKProgressTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCKProgressTitleView.h; sourceTree = "<group>"; };
+		B5EE2225169BDFAA00E480BC /* LCKProgressTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCKProgressTitleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		B5EE21F1169BDEA900E480BC = {
 			isa = PBXGroup;
 			children = (
+				B5EE2223169BDFAA00E480BC /* LCKProgressTitleView */,
 				B5EE2206169BDEA900E480BC /* LCKPRogressTitleViewExample */,
 				B5EE21FF169BDEA900E480BC /* Frameworks */,
 				B5EE21FD169BDEA900E480BC /* Products */,
@@ -105,6 +109,16 @@
 				B5EE2216169BDEA900E480BC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5EE2223169BDFAA00E480BC /* LCKProgressTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE2224169BDFAA00E480BC /* LCKProgressTitleView.h */,
+				B5EE2225169BDFAA00E480BC /* LCKProgressTitleView.m */,
+			);
+			name = LCKProgressTitleView;
+			path = ../../LCKProgressTitleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +191,7 @@
 				B5EE220D169BDEA900E480BC /* main.m in Sources */,
 				B5EE2211169BDEA900E480BC /* LCKAppDelegate.m in Sources */,
 				B5EE221A169BDEA900E480BC /* LCKViewController.m in Sources */,
+				B5EE2226169BDFAA00E480BC /* LCKProgressTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

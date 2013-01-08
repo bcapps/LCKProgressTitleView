@@ -16,4 +16,6 @@
 @property (nonatomic) float progress;
 @property (nonatomic) NSString *text;
 
+- (void)setProgress:(float)progress animated:(BOOL)animated;
+
 @end

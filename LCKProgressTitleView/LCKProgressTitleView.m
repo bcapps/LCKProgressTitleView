@@ -68,6 +68,10 @@ const CGFloat LCKProgressTitleViewPaddingSizeThreshhold = 32.0;
 
 #pragma mark - Overriden getters and setters
 
+- (void)setProgress:(float)progress animated:(BOOL)animated{
+    [self.progressView setProgress:progress animated:animated];
+}
+
 - (void)setProgress:(float)progress {
     self.progressView.progress = progress;
 }
