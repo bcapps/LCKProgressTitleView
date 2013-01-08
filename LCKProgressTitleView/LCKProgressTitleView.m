@@ -24,6 +24,7 @@ const CGFloat LCKProgressTitleViewPaddingSizeThreshhold = 32.0;
     self = [super initWithFrame:frame];
     
     if (self) {
+        self.autoresizingMask = UIViewAutoresizingFlexibleHeight;
         self.containerView = [[UIView alloc] initWithFrame:CGRectZero];
         self.progressInformationLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         self.progressView = [[UIProgressView alloc] initWithProgressViewStyle:UIProgressViewStyleBar];
