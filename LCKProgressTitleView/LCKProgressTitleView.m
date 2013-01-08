@@ -64,7 +64,7 @@ const CGFloat LCKProgressTitleViewPaddingSizeThreshhold = 32.0;
     self.progressInformationLabel.textAlignment = NSTextAlignmentCenter;
     self.progressInformationLabel.font = [UIFont boldSystemFontOfSize:11.0];
     self.progressInformationLabel.textColor = [UIColor whiteColor];
-    self.progressInformationLabel.shadowColor = [UIColor blackColor];
+    self.progressInformationLabel.shadowColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
 }
 
 #pragma mark - Overriden getters and setters
