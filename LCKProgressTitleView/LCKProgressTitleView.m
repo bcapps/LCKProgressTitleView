@@ -31,6 +31,7 @@ const CGFloat LCKProgressTitleViewPaddingSizeThreshhold = 32.0;
         
         [self styleProgressInformationLabel];
         
+        
         [self.containerView addSubview:self.progressInformationLabel];
         [self.containerView addSubview:self.progressView];
         
